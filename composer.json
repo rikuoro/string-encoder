@@ -13,6 +13,13 @@
             "homepage": "http://gillespaquette.ca"
         }
     ],
+    "repositories": [
+
+        {
+            "type": "vcs",
+            "url": "https://github.com/user/yourforkname"
+        }
+    ],
     "require": {
         "php": ">=7.1"
     },
