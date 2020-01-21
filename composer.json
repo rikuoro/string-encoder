@@ -1,5 +1,5 @@
 {
-    "name": "rikuoro/string-encode",
+    "name": "paquettg/string-encode",
     "type": "library",
     "description": "Facilitating the process of altering string encoding in PHP.",
     "version": "1.0.1",
