@@ -1,5 +1,5 @@
 {
-    "name": "paquettg/string-encode",
+    "name": "rikuoro/string-encode",
     "type": "library",
     "description": "Facilitating the process of altering string encoding in PHP.",
     "version": "1.0.1",
@@ -8,8 +8,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Gilles Paquette",
-            "email": "paquettg@gmail.com",
+            "name": "Boyriku",
+            "email": "mboyrik@gmail.com",
             "homepage": "http://gillespaquette.ca"
         }
     ],
