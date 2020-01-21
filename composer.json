@@ -4,7 +4,7 @@
     "description": "Facilitating the process of altering string encoding in PHP.",
     "version": "1.0.1",
     "keywords": ["encoding", "charset", "string"],
-    "homepage": "https://github.com/paquettg/string-encoder",
+    "homepage": "https://github.com/rikuoro/string-encoder",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,7 @@
 
         {
             "type": "vcs",
-            "url": "https://github.com/user/yourforkname"
+            "url": "https://github.com/rikuoro/string-encoder"
         }
     ],
     "require": {
