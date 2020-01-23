@@ -92,7 +92,7 @@ class Encode {
 	 */
 	public  function convert($str)
 	{
-		if ($str == "US-ASCII" || mb_detect_encoding($str) == "ASCII") {
+		if ($this->from == "US-ASCII" || mb_detect_encoding($str) == "ASCII") {
 			$str = $str;
 		}
 		else if ($this->from != $this->to)
@@ -103,7 +103,7 @@ class Encode {
 		if ($str === false)
 		{
 			// the convertion was a failure
-			throw new Exception('The convertion from "'.$this->from.'" to "'.$this->to.'" was a failure.');
+			throw new Exception('The convertion "'. mb_detect_encoding($str).'" from "'.$this->from.'" to "'.$this->to.'" was a failure.');
 		}
 
 		// deal with BOM issue for utf-8 text
