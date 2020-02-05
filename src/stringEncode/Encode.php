@@ -92,7 +92,7 @@ class Encode {
 	 */
 	public  function convert($str)
 	{
-		if ($this->from == "US-ASCII" || mb_detect_encoding($str) == "ASCII") {
+		if ($this->from == "US-ASCII") {
 			$str = $str;
 		}
 		else if ($this->from != $this->to)
